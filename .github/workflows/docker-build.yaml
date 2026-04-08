@@ -67,7 +67,7 @@ jobs:
         id: metadata
         with:
           images: |
-            ghcr.io/ZeMangoFur/danbooru
+            ghcr.io/zemangofur/danbooru
           tags: |
             type=sha,format=long,prefix=
             type=ref,event=branch
@@ -106,7 +106,7 @@ jobs:
         id: development-metadata
         with:
           images: |
-            ghcr.io/ZeMangoFur/danbooru
+            ghcr.io/zemangofur/danbooru
           tags: |
             type=sha,format=long,prefix=development-
             type=ref,event=branch,prefix=development-
