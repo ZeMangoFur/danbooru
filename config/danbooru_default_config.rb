@@ -209,7 +209,7 @@ module Danbooru
     # Setting this to false disallows crawlers in /robots.txt. This will only block crawlers that actually respect
     # robots.txt, mainly search engines, not other bots.
     def allow_web_crawlers?
-      true
+      false
     end
 
     # If true, new accounts will require email verification if they seem
@@ -222,7 +222,7 @@ module Danbooru
     # Disable this if you're running a public booru and you don't want email
     # verification for new accounts.
     def new_user_verification?
-      true
+      false
     end
 
     # An array of regexes containing disallowed usernames.
