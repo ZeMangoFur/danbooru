@@ -73,8 +73,7 @@ jobs:
         id: metadata
         with:
           images: |
-            docker.io/evazion/danbooru
-            ghcr.io/danbooru/danbooru
+            ghcr.io/ZeMangoFur/danbooru
           tags: |
             type=sha,format=long,prefix=
             type=ref,event=branch
@@ -113,8 +112,7 @@ jobs:
         id: development-metadata
         with:
           images: |
-            docker.io/evazion/danbooru
-            ghcr.io/danbooru/danbooru
+            ghcr.io/ZeMangoFur/danbooru
           tags: |
             type=sha,format=long,prefix=development-
             type=ref,event=branch,prefix=development-
